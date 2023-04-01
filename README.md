@@ -69,7 +69,7 @@ Note: We have only defined one default dummy test.
 You can format your code to make it easier reable using
 
 ```
-npm run fmt
+npm run format
 ```
 
 You can get code improvement suggestions by running
