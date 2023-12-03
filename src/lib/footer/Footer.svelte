@@ -1,5 +1,5 @@
 <script lang="ts">
-	import BottomAppBar, { Section, AutoAdjust } from '@smui-extra/bottom-app-bar';
+	import BottomAppBar, { Section } from '@smui-extra/bottom-app-bar';
 	import Fab, { Icon } from '@smui/fab';
 	import IconButton from '@smui/icon-button';
 
