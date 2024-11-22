@@ -1,9 +1,8 @@
 import adapter from '@sveltejs/adapter-static';
-import preprocess from 'svelte-preprocess';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 export default {
-	preprocess: [preprocess(), vitePreprocess()],
+	preprocess: [vitePreprocess()],
 	kit: {
 		adapter: adapter({
 			// default options are shown. On some platforms

@@ -4,7 +4,7 @@
 	let clicked = 0;
 </script>
 
-<Button on:click={() => clicked++}>
+<Button onclick={() => clicked++}>
 	<Label>Click me</Label>
 </Button>
 
